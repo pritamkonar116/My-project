@@ -143,9 +143,9 @@ Improves efficiency and reduces unnecessary energy consumption.
 
 # 👨‍💻 Author
 
-**Afif Ahmad**  
+**Pritam Konar**  
 🎓 Bachelor of Computer Applications (BCA)  
-🏫 Academic Session: 2023–2026  
+🏫 Academic Session: 2023–2027  
 🔬 Domain: Industrial Development  
 🤖 Project: AI-Based Predictive Maintenance Dashboard for Industrial Equipment
 
