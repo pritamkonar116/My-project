@@ -1,35 +1,154 @@
-Predictive Maintenance Dashboard Documentation
-Introduction
-The Predictive Maintenance Dashboard is an interactive web application designed to provide insights into predictive maintenance for industrial machinery. It offers features for data visualization, historical data analysis, input data submission, and prediction results.
+# 🔧 Predictive Maintenance Dashboard for Industrial Equipment
 
-Features
-Home: Welcome page providing an overview of the application.
-Historical Data: View historical data of machinery sensor readings and operational hours.
-Input Data: Submit input data for prediction, either manually or by generating random values.
-Results: Display predictions for remaining useful life (RUL), maintenance status, and anomaly detection based on the input data.
+> 🚀 An AI-powered predictive maintenance dashboard that helps industries monitor machinery health, predict failures, estimate Remaining Useful Life (RUL), and optimize maintenance schedules using machine learning and data analytics.
 
-Visualizations: Visualize historical sensor data and operational hours through histograms, scatter plots, and line charts. Optionally overlay generated input values on visualizations.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge)
+![Industrial AI](https://img.shields.io/badge/Industrial-AI-orange?style=for-the-badge)
 
-Technologies Used
-Streamlit: Python library for building interactive web applications.
-Pandas: Data manipulation and analysis library.
-NumPy: Numerical computing library.
-Matplotlib: Data visualization library for creating static, animated, and interactive visualizations.
-Seaborn: Data visualization library based on Matplotlib for statistical graphics.
-scikit-learn: Machine learning library for predictive modeling and data analysis.
-GitHub: Version control repository for project collaboration and code management.
+---
 
-Installation
-Clone the repository from GitHub: git clone https://github.com/your_username/predictive-maintenance-dashboard.git
-Install the required Python packages: pip install -r requirements.txt
-Run the Streamlit application: streamlit run app.py
+# 📖 Introduction
 
-Usage
-Launch the application using the provided installation instructions.
-Navigate through the different sections using the sidebar menu:
-Home: Provides a brief introduction to the application.
-Historical Data: Displays historical sensor data and operational hours.
-Input Data: Allows users to submit input data for prediction.
-Results: Shows predictions for RUL, maintenance status, and anomaly detection based on the input data.
-Visualizations: Visualizes historical data and optionally overlays generated input values.
-Follow the on-screen instructions to interact with the application, submit input data, and view predictions.
+Industrial machinery failures can result in costly downtime, production delays, and increased maintenance expenses.
+
+The **Predictive Maintenance Dashboard** is an interactive web application that uses historical machinery data, sensor readings, and machine learning techniques to predict equipment health and maintenance requirements before failures occur.
+
+This system enables industries to shift from:
+
+🔴 Reactive Maintenance  
+➡️ 🟡 Preventive Maintenance  
+➡️ 🟢 Predictive Maintenance
+
+allowing organizations to make smarter maintenance decisions and improve operational efficiency.
+
+---
+
+# ✨ Features
+
+## 🏠 Home Dashboard
+- Welcome page with project overview
+- Quick introduction to predictive maintenance
+- Navigation to all application modules
+
+## 📊 Historical Data Analysis
+- 🌡️ Sensor Readings
+- ⚙️ Equipment Performance Metrics
+- ⏳ Operational Hours
+- 📈 Historical Trends
+
+## 📝 Input Data Submission
+### ✍️ Manual Entry
+Enter custom machine parameters and sensor values.
+
+### 🎲 Random Data Generation
+Generate sample values for testing and demonstration purposes.
+
+## 🤖 Predictive Analytics
+
+### ⏳ Remaining Useful Life (RUL)
+Estimate how long a machine can operate before maintenance becomes necessary.
+
+### 🔧 Maintenance Status
+- ✅ Not Required
+- ⚠️ Recommended Soon
+- 🚨 Immediately Required
+
+### 🚨 Anomaly Detection
+Identify unusual machine behavior that may indicate failures or wear.
+
+## 📈 Interactive Visualizations
+- 📊 Histograms
+- 📉 Scatter Plots
+- 📈 Line Charts
+- 🎯 Input Data Overlay
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| 🐍 Python | Core Programming Language |
+| 🎈 Streamlit | Interactive Web Dashboard |
+| 📊 Pandas | Data Processing & Analysis |
+| 🔢 NumPy | Numerical Computation |
+| 📉 Matplotlib | Data Visualization |
+| 🎨 Seaborn | Statistical Visualization |
+| 🤖 Scikit-Learn | Machine Learning Models |
+| 🗂️ Git & GitHub | Version Control |
+
+---
+
+# 📂 Project Structure
+
+```text
+📦 Predictive Maintenance Dashboard
+│
+├── app.py
+├── machinery_data.csv
+├── style.css
+├── README.md
+├── Documenation.docx
+└── Predictive Maintenance for Industrial Equipment.ipynb
+```
+
+---
+
+# 🚀 Installation
+
+```bash
+git clone https://github.com/pritamkonar116/My-project.git
+cd My-project
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+# 📖 Usage Guide
+
+1. Launch the application.
+2. Navigate using the sidebar.
+3. Enter or generate machine data.
+4. Review predictions and maintenance recommendations.
+5. Analyze charts and historical trends.
+
+---
+
+# 🎯 Benefits
+
+✅ Reduced Equipment Downtime  
+✅ Lower Maintenance Costs  
+✅ Improved Asset Reliability  
+✅ Increased Production Efficiency  
+✅ Early Failure Detection  
+✅ Data-Driven Decision Making
+
+---
+
+# 🌍 Sustainable Development Goals (SDGs)
+
+### 🏭 SDG 9 – Industry, Innovation and Infrastructure
+Promotes smart industrial automation and innovation.
+
+### ♻️ SDG 12 – Responsible Consumption and Production
+Optimizes resource utilization and reduces waste.
+
+### 🌱 SDG 13 – Climate Action
+Improves efficiency and reduces unnecessary energy consumption.
+
+---
+
+# 👨‍💻 Author
+
+**Afif Ahmad**  
+🎓 Bachelor of Computer Applications (BCA)  
+🏫 Academic Session: 2023–2026  
+🔬 Domain: Industrial Development  
+🤖 Project: AI-Based Predictive Maintenance Dashboard for Industrial Equipment
+
+---
+
+⭐ If you found this project useful, consider giving the repository a star!
