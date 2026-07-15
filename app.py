@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 # """, unsafe_allow_html=True)
 # Load data
 data = pd.read_csv('machinery_data.csv')
-data.fillna(method='ffill', inplace=True)
+data.ffill(inplace=True)
 
 # Feature selection and normalization
 features = ['sensor_1', 'sensor_2', 'sensor_3', 'operational_hours']
